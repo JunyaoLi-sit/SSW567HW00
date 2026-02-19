@@ -1,8 +1,11 @@
 # HW00b Triangle
 # Junyao Li
+"""HW00b: Triangle classification."""
+# pylint: disable=invalid-name, no-else-return, too-many-return-statements
+
 
 def classify_Triangle(a, b, c):
-
+"""Classify a triangle by side lengths a, b, and c."""
     if not (isinstance(a, int) and isinstance(b, int) and isinstance(c, int)):
         return 'InvalidInput'
 
